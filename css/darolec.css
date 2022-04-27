@@ -1,0 +1,196 @@
+/* MENÚ DE NAVEGACIÓN */
+
+.navbar {
+    height: auto;
+    background:#085888;
+    color: #00A3E0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbar-nav {
+    background:#085888;
+}
+
+.nav-link {
+    color: #00A3E0;
+}
+
+.nav-link:hover {
+    color: #00A3E0;
+    text-decoration: underline;
+}
+
+.nav-item {
+    
+    padding: 30px;
+}
+
+.custom-toggler.navbar-toggler {
+    border: 2px solid #FFF;
+} 
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.dropdown-color {
+    background-color: #A9DEE7;
+}
+
+.dropdown-menu a {
+    color: #00A3E0; 
+}
+
+.dropdown-menu a:hover {
+    background-color: #95CDDB;
+    color: #00A3E0;
+}
+
+
+/* INDEX PORTADAS */
+
+.main-container {
+    height: auto;
+    max-width: 1500px;
+    background-image: url(../img/fondo_primario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    border: solid 2px #fff;
+}
+
+
+.portada {
+    border: solid 3px #00B398;
+    border-radius: 3px;
+    margin: 50px;
+}
+
+.secondary-container {
+    max-width: 1500px;
+    background-image: url(../img/fondo_secundario.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.encabezado {
+    background-color: #00A3E0;
+    color: #fff;
+}
+
+/* FILAS PRODUCTOS*/
+.filas-productos {
+    margin-top: 40px;
+}
+
+.img-thumbnail {
+    border-radius: 0px;
+}
+
+.img-thumbnail:hover {
+    opacity: 0.5;
+}
+
+/* FILAS AZULES */
+.btn-azul {
+    color: #fff;
+    background-color: #00A3E0;
+    border-radius: 0px;
+}
+
+.btn-azul:hover {
+    color: #fff;
+    background-color: #0ABEFF;
+}
+
+.card-azul {
+    border: solid 2px #00A3E0;
+}
+
+/* FILAS VERDES */
+.btn-verde {
+    color: #fff;
+    background-color: #00B398;
+    border-radius: 0px;
+}
+
+.btn-verde:hover {
+    color: #fff;
+    background-color: #00E0BF;
+}
+
+.card-verde {
+    border: solid 2px #00B398;
+}
+
+/* FILAS NARANJAS */
+.btn-naranja {
+    color: #fff;
+    background-color: #FF671F;
+    border-radius: 0px;
+}
+
+.btn-naranja:hover {
+    color: #fff;
+    background-color: #FF8247;
+}
+
+.card-naranja {
+    border: solid 2px #FF671F;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: auto;
+    background: #00B398;
+    color: #fff;
+    font-size: 0.9rem;
+    padding-bottom: 15px;
+}
+
+
+
+/* NOSOTROS */
+
+.nosotros {
+    color: #085888;
+    background-color: #ECF7FE;
+}
+
+.fuente {
+    font-weight: 500;
+    text-align: justify;
+}
+
+
+/* CONTACTO */
+
+.contacto {
+    color: #085888;
+    background-color: #ECF7FE;
+}
+
+.letra {
+    text-align: center;
+}
+
+
+/* PESTAÑAS NAVEGACION */
+
+.navegacion {
+    background-color: #ECF7FE;
+}
+
+.tabd {
+    padding: 10px;
+    background-color: #C5E7FC;
+    margin: 1px;
+    margin-top: 5px;
+}
